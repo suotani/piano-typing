@@ -1,9 +1,9 @@
-var w = 1300
+var w = 1000
 var h = 400
 var lineInterval = 30
 
 function setup(){
-  createCanvas(w, h)
+  createCanvas(windowWidth, h)
   noLoop()
   frameRate(0.3);
 }
